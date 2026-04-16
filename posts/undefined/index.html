@@ -1,0 +1,291 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>2026指南 | simon's blog</title><meta name="author" content="simon"><meta name="copyright" content="simon"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Vibe CodingVibe Coding是什么🤔Vibe Coding 直接翻译过来叫氛围编程，什么是氛围编程？放着 BGM 写代码？No No No Vibe Coding 是一种新兴的、由人工智能驱动的编程范式。简单来说，Vibe Coding 的核心是用自然语言描述你想要的“感觉”或意图，让 AI 负责生成、调试和优化代码，而开发者则更像一个“指挥官”，专注于最终效果而非代码细节。码农">
+<meta property="og:type" content="website">
+<meta property="og:title" content="2026指南">
+<meta property="og:url" content="https://simon-996.github.io/posts/undefined/index.html">
+<meta property="og:site_name" content="simon&#39;s blog">
+<meta property="og:description" content="Vibe CodingVibe Coding是什么🤔Vibe Coding 直接翻译过来叫氛围编程，什么是氛围编程？放着 BGM 写代码？No No No Vibe Coding 是一种新兴的、由人工智能驱动的编程范式。简单来说，Vibe Coding 的核心是用自然语言描述你想要的“感觉”或意图，让 AI 负责生成、调试和优化代码，而开发者则更像一个“指挥官”，专注于最终效果而非代码细节。码农">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://simon-picgo-img.oss-cn-chengdu.aliyuncs.com/221749645517_.pic.jpg">
+<meta property="article:published_time" content="2026-04-16T05:59:33.000Z">
+<meta property="article:modified_time" content="2026-04-16T07:38:30.273Z">
+<meta property="article:author" content="simon">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://simon-picgo-img.oss-cn-chengdu.aliyuncs.com/221749645517_.pic.jpg"><link rel="shortcut icon" href="https://simon-picgo-img.oss-cn-chengdu.aliyuncs.com/221749645517_.pic.jpg"><link rel="canonical" href="https://simon-996.github.io/posts/undefined/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '2026指南',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'vibe'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://simon-picgo-img.oss-cn-chengdu.aliyuncs.com/221749645517_.pic.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">13</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa fa-graduation-cap"></i><span> 文章</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">simon's blog</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa fa-graduation-cap"></i><span> 文章</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">2026指南</h1></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="Vibe-Coding"><a href="#Vibe-Coding" class="headerlink" title="Vibe Coding"></a>Vibe Coding</h1><h2 id="Vibe-Coding是什么🤔"><a href="#Vibe-Coding是什么🤔" class="headerlink" title="Vibe Coding是什么🤔"></a>Vibe Coding是什么<strong>🤔</strong></h2><p><code>Vibe Coding</code> 直接翻译过来叫<code>氛围编程</code>，什么是氛围编程？放着 BGM 写代码？No No No</p>
+<p>Vibe Coding 是一种新兴的、由人工智能驱动的编程范式。简单来说，Vibe Coding 的核心是用自然语言描述你想要的“感觉”或意图，让 AI 负责生成、调试和优化代码，而开发者则更像一个“指挥官”，专注于最终效果而非代码细节。码农-&gt; 指挥官</p>
+<h3 id="传统的开发过程："><a href="#传统的开发过程：" class="headerlink" title="传统的开发过程："></a>传统的开发过程：</h3><pre><code> 1. 写代码
+ 2. 出 Bug
+ 3. 挠头找 Bug
+ 4. 找不到
+ 5. 网上搜索求助，开十几个标签
+ 6. 尝试复制粘贴 StackOverflow、CSDN 的代码，结果报错更多了。
+</code></pre>
+<p>  …..</p>
+<h3 id="AI-对话开发过程："><a href="#AI-对话开发过程：" class="headerlink" title="AI 对话开发过程："></a>AI 对话开发过程：</h3><ol>
+<li><p>打开 ChatGPT、DeepSeek、豆包</p>
+</li>
+<li><p>提出问题</p>
+</li>
+<li><p>复制代码到自己的代码里</p>
+</li>
+<li><p>报错</p>
+</li>
+<li><p>复制报错信息到 AI</p>
+</li>
+<li><p>粘贴回去，继续报错</p>
+<p>…….</p>
+</li>
+</ol>
+<h3 id="Vibe-Coding-开发过程："><a href="#Vibe-Coding-开发过程：" class="headerlink" title="Vibe Coding 开发过程："></a>Vibe Coding 开发过程：</h3><ol>
+<li>告诉 AI 需求</li>
+<li>AI 给出代码</li>
+<li>AI 进行测试、优化</li>
+</ol>
+<h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><ul>
+<li><strong>自然语言驱动</strong>：用“人话”描述需求即可，哪怕完全不会代码也能写出代码。</li>
+<li><strong>意图大于实现</strong>：关注点从“怎么写代码”转移到“想要什么功能&#x2F;体验”。</li>
+<li><strong>高度信任 AI</strong>：开发者常常不审查 AI 生成的每一行代码，而是直接“Accept All”（全部接受），只看最终运行结果。</li>
+<li><strong>快速原型开发</strong>：极大地提升了从想法到原型的速度，非常适合快速验证创意。</li>
+</ul>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>Vibe Coding 不是说让 AI 替你思考，就什么都不做了。</p>
+<p>AI 很智能，但 AI 始终是 AI，只是工具，不能代替我们思考。</p>
+<ul>
+<li>我们需要做的事情：这个项目有哪些功能？怎么设计？怎么架构？</li>
+<li>AI 可以做的事情：根据你说的功能、结构写代码，指哪儿打哪儿。</li>
+</ul>
+<blockquote>
+<p> AI 很智能、很强大，但强大的士兵也需要强大的指挥官才能发挥出作用。</p>
+</blockquote>
+<h3 id="优势与风险"><a href="#优势与风险" class="headerlink" title="优势与风险"></a><strong>优势与风险</strong></h3><h4 id="优势"><a href="#优势" class="headerlink" title="优势"></a><strong>优势</strong></h4><ul>
+<li><strong>效率极高</strong>：能将开发效率提升数倍，尤其适合重复性工作或快速搭建原型。</li>
+<li><strong>门槛极低</strong>：让不懂编程的人也能将想法变为现实。</li>
+<li><strong>激发创意</strong>：开发者可以专注于高层设计和用户体验，而不被繁琐的语法打断思路。</li>
+</ul>
+<h4 id="风险与局限"><a href="#风险与局限" class="headerlink" title="风险与局限"></a><strong>风险与局限</strong></h4><ul>
+<li><strong>代码质量隐患</strong>：AI 生成的代码可能存在安全漏洞、性能问题或不符合最佳实践，盲目接受会积累“技术债”。</li>
+<li><strong>调试困难</strong>：当项目变得复杂时，如果不理解底层代码逻辑，一旦出现问题将难以排查和修复。</li>
+<li><strong>不适合关键系统</strong>：对于需要长期维护、高稳定性和安全性的生产级项目，Vibe Coding 目前的风险过高。Linux 之父 Linus Torvalds 也明确表示，它不适合用于关键系统。</li>
+</ul>
+<h2 id="怎么Vibe-Coding"><a href="#怎么Vibe-Coding" class="headerlink" title="怎么Vibe Coding"></a>怎么Vibe Coding</h2><p>工欲善其事必先利其器，目前的 Vibe Coding 工具主要分为三类，你可以根据场景选择你的“武器”。</p>
+<h4 id="1-AI-原生编辑器-IDE"><a href="#1-AI-原生编辑器-IDE" class="headerlink" title="1. AI 原生编辑器 (IDE)"></a>1. AI 原生编辑器 (IDE)</h4><p>这是目前最主流的 Vibe Coding 方式，适合正经开发项目。它们不仅仅是编辑器，更是你的<strong>结对编程伙伴</strong>。</p>
+<h3 id="Cursor"><a href="#Cursor" class="headerlink" title="Cursor"></a>Cursor</h3><ul>
+<li><strong>地位</strong>：目前的“版本之子”，Vibe Coding 的代名词。</li>
+<li><strong>杀手锏</strong>：<strong>Composer</strong> 功能（多文件同时编辑）、<strong>Tab 键预测</strong>（预判你的下一步操作）。它能理解你整个项目的代码库，不仅仅是当前文件。</li>
+<li><strong>适合</strong>：所有类型的软件开发，尤其是复杂项目。</li>
+</ul>
+<h3 id="Trae"><a href="#Trae" class="headerlink" title="Trae"></a>Trae</h3><ul>
+<li><strong>地位</strong>：字节跳动出品，国产之光。</li>
+<li><strong>杀手锏</strong>：<strong>中文理解极佳</strong>，国内网络直连无压力，<strong>Builder 模式</strong>能像搭积木一样生成完整模块。</li>
+<li><strong>适合</strong>：国内开发者，特别是刚开始尝试 Vibe Coding 的新手。</li>
+</ul>
+<h4 id="终端命令行工具-CLI"><a href="#终端命令行工具-CLI" class="headerlink" title="终端命令行工具 (CLI)"></a>终端命令行工具 (CLI)</h4><h2 id="Calude-Code"><a href="#Calude-Code" class="headerlink" title="Calude Code"></a>Calude Code</h2><p>运行在终端里，适合喜欢键盘操作、需要处理系统文件或自动化任务的“硬核”指挥官。</p>
+<ul>
+<li><p><strong>特点</strong>：Anthropic 出品。它不是聊天机器人，而是直接操作你的文件系统。你可以让它“帮我把这个项目从 Python 2 迁移到 Python 3”，它会自动执行修改、运行测试并修复报错。</p>
+</li>
+<li><p><strong>适合</strong>：后端开发、运维脚本、代码重构。</p>
+</li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://simon-996.github.io">simon</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://simon-996.github.io/posts/undefined/">https://simon-996.github.io/posts/undefined/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://simon-996.github.io" target="_blank">simon's blog</a>！</span></div></div><div class="tag_share"><div class="post-share"><div class="social-share" data-image="https://simon-picgo-img.oss-cn-chengdu.aliyuncs.com/221749645517_.pic.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav id="pagination"><div class="pagination"></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://simon-picgo-img.oss-cn-chengdu.aliyuncs.com/221749645517_.pic.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">simon</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">13</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/simon-996"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/undefined/" title="2026指南">2026指南</a><time datetime="2026-04-16T05:59:33.000Z" title="发表于 2026-04-16 13:59:33">2026-04-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/647723b/" title="html-css-4-css选择器">html-css-4-css选择器</a><time datetime="2026-04-03T06:38:09.000Z" title="发表于 2026-04-03 14:38:09">2026-04-03</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/e5d4727e/" title="html-css-3-表单标签">html-css-3-表单标签</a><time datetime="2026-03-30T08:25:21.000Z" title="发表于 2026-03-30 16:25:21">2026-03-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/a6cb8753/" title="html-css-2-编辑器安装">html-css-2-编辑器安装</a><time datetime="2026-03-06T14:11:46.000Z" title="发表于 2026-03-06 22:11:46">2026-03-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/1ec5d0bd/" title="html-css-1-网页基本结构标签">html-css-1-网页基本结构标签</a><time datetime="2026-03-06T11:13:29.000Z" title="发表于 2026-03-06 19:13:29">2026-03-06</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"><span class="card-category-list-name">个人博客</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"><span class="card-category-list-name">服务器</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%AF%BE%E4%BB%B6/"><span class="card-category-list-name">课件</span><span class="card-category-list-count">7</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/html/" style="font-size: 1.5em; color: #99a9bf">html</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 1.1em; color: #999">博客</a> <a href="/tags/%E5%BB%BA%E7%AB%99/" style="font-size: 1.1em; color: #999">建站</a> <a href="/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/" style="font-size: 1.1em; color: #999">内网穿透</a> <a href="/tags/css/" style="font-size: 1.5em; color: #99a9bf">css</a> <a href="/tags/github/" style="font-size: 1.1em; color: #999">github</a> <a href="/tags/Hexo/" style="font-size: 1.1em; color: #999">Hexo</a> <a href="/tags/Jenkins/" style="font-size: 1.3em; color: #99a1ac">Jenkins</a> <a href="/tags/frp/" style="font-size: 1.1em; color: #999">frp</a> <a href="/tags/Linux/" style="font-size: 1.1em; color: #999">Linux</a> <a href="/tags/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%B6%E4%BD%9C/" style="font-size: 1.5em; color: #99a9bf">网页设计与制作</a> <a href="/tags/%E8%BF%90%E7%BB%B4/" style="font-size: 1.3em; color: #99a1ac">运维</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/" style="font-size: 1.1em; color: #999">数据可视化</a> <a href="/tags/Python/" style="font-size: 1.1em; color: #999">Python</a> <a href="/tags/1Panel/" style="font-size: 1.3em; color: #99a1ac">1Panel</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/04/">
+            <span class="card-archive-list-date">
+              四月 2026
+            </span>
+            <span class="card-archive-list-count">2</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/03/">
+            <span class="card-archive-list-date">
+              三月 2026
+            </span>
+            <span class="card-archive-list-count">5</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/01/">
+            <span class="card-archive-list-date">
+              一月 2026
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/12/">
+            <span class="card-archive-list-date">
+              十二月 2025
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/09/">
+            <span class="card-archive-list-date">
+              九月 2025
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/06/">
+            <span class="card-archive-list-date">
+              六月 2025
+            </span>
+            <span class="card-archive-list-count">3</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">13</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2026-04-16T07:39:25.025Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2026 By simon</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.3.5</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
