@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.simon996.com/posts/ai-video-doubao/</loc>
+    
+    <lastmod>2026-11-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.simon996.com/posts/ai-video-local-workflow-example/</loc>
     
     <lastmod>2026-11-14</lastmod>
@@ -146,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://blog.simon996.com/posts/csslayout/</loc>
+    <loc>https://blog.simon996.com/posts/cssselector/</loc>
     
     <lastmod>2026-11-11</lastmod>
     
@@ -155,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://blog.simon996.com/posts/cssselector/</loc>
+    <loc>https://blog.simon996.com/posts/csslayout/</loc>
     
     <lastmod>2026-11-11</lastmod>
     
@@ -173,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://blog.simon996.com/posts/647723b/</loc>
+    <loc>https://blog.simon996.com/posts/e5d4727e/</loc>
     
     <lastmod>2026-11-11</lastmod>
     
@@ -182,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://blog.simon996.com/posts/e5d4727e/</loc>
+    <loc>https://blog.simon996.com/posts/647723b/</loc>
     
     <lastmod>2026-11-11</lastmod>
     
@@ -245,27 +254,6 @@
 
   
   <url>
-    <loc>https://blog.simon996.com/tags/Jenkins/</loc>
-    <lastmod>2026-11-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.simon996.com/tags/1Panel/</loc>
-    <lastmod>2026-11-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.simon996.com/tags/%E8%BF%90%E7%BB%B4/</loc>
-    <lastmod>2026-11-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.simon996.com/tags/%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -294,21 +282,21 @@
   </url>
   
   <url>
-    <loc>https://blog.simon996.com/tags/%E5%B0%B1%E4%B8%9A/</loc>
+    <loc>https://blog.simon996.com/tags/Jenkins/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.simon996.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
+    <loc>https://blog.simon996.com/tags/1Panel/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.simon996.com/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
+    <loc>https://blog.simon996.com/tags/%E8%BF%90%E7%BB%B4/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -330,6 +318,27 @@
   
   <url>
     <loc>https://blog.simon996.com/tags/Linux/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.simon996.com/tags/%E5%B0%B1%E4%B8%9A/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.simon996.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.simon996.com/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -372,6 +381,13 @@
   
   <url>
     <loc>https://blog.simon996.com/tags/Skills/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.simon996.com/tags/%E8%B1%86%E5%8C%85/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -422,14 +438,14 @@
   </url>
   
   <url>
-    <loc>https://blog.simon996.com/categories/%E8%AF%BE%E4%BB%B6/</loc>
+    <loc>https://blog.simon996.com/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.simon996.com/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <loc>https://blog.simon996.com/categories/%E8%AF%BE%E4%BB%B6/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
